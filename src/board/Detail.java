@@ -5,9 +5,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.sun.org.apache.bcel.internal.generic.NEW;
 
-import db.BoardDAO;
-import model.Action;
-import model.ActionData;
+import db1.BoardDAO;
+import model2.Action;
+import model2.ActionData;
 
 public class Detail implements Action{
 

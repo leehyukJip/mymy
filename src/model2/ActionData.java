@@ -1,4 +1,4 @@
-package model;
+package model2;
 
 public class ActionData {
 	boolean redirect = false;

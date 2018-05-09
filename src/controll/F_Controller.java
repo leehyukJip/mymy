@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Action;
-import model.ActionData;
+import model2.Action;
+import model2.ActionData;
 
 /**
  * Servlet implementation class f_controller

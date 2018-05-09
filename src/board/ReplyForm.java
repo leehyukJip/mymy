@@ -3,10 +3,10 @@ package board;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import db.BoardDAO;
-import db.BoardVO;
-import model.Action;
-import model.ActionData;
+import db1.BoardDAO;
+import db1.BoardVO;
+import model2.Action;
+import model2.ActionData;
 
 public class ReplyForm implements Action{
 	@Override

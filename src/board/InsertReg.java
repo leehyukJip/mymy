@@ -8,10 +8,10 @@ import javax.servlet.http.Part;
 
 import com.sun.xml.internal.ws.api.pipe.Fiber;
 
-import db.BoardDAO;
-import db.BoardVO;
-import model.Action;
-import model.ActionData;
+import db1.BoardDAO;
+import db1.BoardVO;
+import model2.Action;
+import model2.ActionData;
 
 public class InsertReg implements Action{
 

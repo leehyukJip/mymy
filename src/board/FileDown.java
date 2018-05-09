@@ -10,8 +10,8 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Action;
-import model.ActionData;
+import model2.Action;
+import model2.ActionData;
 
 public class FileDown implements Action{
 	@Override
