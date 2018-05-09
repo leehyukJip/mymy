@@ -38,7 +38,6 @@ public class InsertReg implements Action{
 	}
 	public String fileUpload(HttpServletRequest request) {
 		String fileName="";
-	
 		try {
 			Part pp = request.getPart("file");
 			if(pp.getContentType()!=null) {
