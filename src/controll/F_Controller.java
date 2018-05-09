@@ -30,6 +30,7 @@ public class F_Controller extends HttpServlet {
 	public F_Controller() {
         super();
         // TODO Auto-generated constructor stub
+        ///혁집혁집 으헤헤헤헿
     }
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
