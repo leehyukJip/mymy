@@ -65,7 +65,7 @@ public class InsertReg implements Action{
 		
 		String fileDo = fileName.substring(0, pos);
 		String exp = fileName.substring(pos);
-		
+		//주석주석
 		String path = request.getRealPath("up")+"\\";
 		path = "E:\\newWorkSpace\\mvcJsp\\WebContent\\upload\\";
 		
