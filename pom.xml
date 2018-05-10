@@ -4,7 +4,26 @@
   <artifactId>mvcJsp2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <properties>
+  	<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+  	<project.build.outputEncoding>utf-8</project.build.outputEncoding> 
+  </properties>
   <dependencies>
+  	<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>3.1.0</version>
+	    <scope>provided</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+	<dependency>
+	    <groupId>javax.servlet.jsp</groupId>
+	    <artifactId>javax.servlet.jsp-api</artifactId>
+	    <version>2.3.1</version>
+	    <scope>provided</scope>
+	</dependency>
+	
 	  <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
 	<dependency>
 	    <groupId>com.oracle</groupId>
@@ -45,6 +64,18 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
+      <plugin>
+		  <groupId>org.apache.tomcat.maven</groupId>
+		  <artifactId>tomcat7-maven-plugin</artifactId>
+		  <version>2.2</version>
+		  <configuration>
+		  	<path>/mvcJsp2</path>
+		  	<url>http://localhost:8080/manager/text</url>
+			<username>mmm</username>
+		  	<password>1234</password>
+		  	<update>true</update>
+		  </configuration>
+		</plugin>
     </plugins>
   </build>
   <repositories>
